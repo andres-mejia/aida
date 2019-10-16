@@ -760,10 +760,11 @@
                     log: console.log,
                     warn: console.warn
                 }), le(se(n), "renderIntentsList", function() {
-                    return r.createElement("div", null, r.createElement("p", null, "The pipeline was trained on this list of intents and slots per intent:"), r.createElement("div", null, r.createElement("ul", null, r.createElement("li", null, "greet"), r.createElement("li", null, "bye"), r.createElement("li", null, "affirmative"), r.createElement("li", null, "negative"), r.createElement("li", null, "wtf (detect insults and out of context stuff)"), r.createElement("li", null, "playMusic -> slots: artist, song"), r.createElement("li", null, "addEventToCalendar -> slots: calendarEvent, dateTime"))), r.createElement("p", null, "You can try a sentence like 'please remind to me watch real madrid match tomorrow at 9pm' or 'play new york new york from frank sinatra'"), r.createElement("p", null, "Check the", " ", r.createElement("a", {
+                    return r.createElement("div", null, r.createElement("p", null, "The pipeline was trained on this list of intents and slots per intent:"), r.createElement("div", null, r.createElement("ul", null, r.createElement("li", null, "greet"), r.createElement("li", null, "bye"), r.createElement("li", null, "affirmative"), r.createElement("li", null, "negative"), r.createElement("li", null, "wtf (detect insults and out of context stuff)"), r.createElement("li", null, "playMusic -> slots: artist, song"), r.createElement("li", null, "addEventToCalendar -> slots: calendarEvent, dateTime"))), r.createElement("p", null, "You can try a sentence like 'please remind to me watch real madrid match tomorrow at 9pm' or 'play new york new york from frank sinatra'")/*, r.createElement("p", null, "Check the", " ", r.createElement("a", {
                         target: "_blank",
                         href: "/tree/master/typescript/examples/en/intents"
-                    }, "chatito definition files at the github repo"), "  for more details about the training examples generation."))
+                    }, "chatito definition files at the github repo"), "  for more details about the training examples generation.")*/
+                    )
                 }), le(se(n), "downloadsTrainedModel", function() {
                     var e = ie(regeneratorRuntime.mark(function e(t) {
                         var n, r, i, a;
