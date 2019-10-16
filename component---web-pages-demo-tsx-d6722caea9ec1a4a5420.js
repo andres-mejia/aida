@@ -424,7 +424,10 @@
                                         }
                                         return e.abrupt("return", 'i need a date time for the "'.concat(o, '" event'));
                                     case 22:
-                                        return e.abrupt("return", "Ok. I've added the event '".concat(o, "' at '").concat(l, "'... aahh this is just a demo so there is no calendar, remember?"));
+                                        console.log("sending event ", o, l, );
+                                    return e.abrupt("return", "Ok. I've added the event '".concat(o, "' at '")
+                                    .concat(l, "'... aahh this is just a demo so there is no calendar, remember?"));
+
                                     case 23:
                                     case "end":
                                         return e.stop()
