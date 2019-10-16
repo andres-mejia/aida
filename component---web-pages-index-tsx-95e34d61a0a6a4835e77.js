@@ -158,7 +158,7 @@
                     key: "1",
                     md: 8,
                     xs: 24
-                }, r.createElement(m.a, {
+                }/*, r.createElement(m.a, {
                     className: "card",
                     to: "/demo"
                 }, r.createElement("h3", null, "Dataset generation"), r.createElement(d.a, {
@@ -213,7 +213,8 @@
                     className: "card-body"
                 }, r.createElement("span", {
                     className: "title"
-                }, "Fully customizable, open source, low memory, works offline, runs in device. Use the tools and environment you choose."))))))
+                }, "Fully customizable, open source, low memory, works offline, runs in device. Use the tools and environment you choose.")))*/
+                )))
             }
             t.default = function() {
                 return [r.createElement(g, {
