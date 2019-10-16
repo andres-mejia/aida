@@ -26828,7 +26828,7 @@
                             },
                             className: "static"
                         }, f.createElement(c.a, {
-                            to: "/"
+                            to: "/demo"
                         }, "ChatBot Demo")), f.createElement(i.a, {
                             theme: "light",
                             mode: "inline",
@@ -26866,7 +26866,7 @@
                                 textAlign: "center"
                             }
                         },*/ f.createElement("a", {
-                            href: "",
+                            href: "/demo",
                             title: "ChatBot Demo",
                             style: {
                                 fontSize: 26
