@@ -25113,7 +25113,7 @@
                                 className: "static"
                             }, p.createElement(c.a, {
                                 to: "/"
-                            }, "<img src='https://pfstech.es/wp-content/uploads/2019/03/logo.png' style='height: 52px' alt='HOME' class='logodark'>")), p.createElement(a.a, {
+                            }, "ChatBot Demo")), p.createElement(a.a, {
                                 theme: "light",
                                 mode: "inline",
                                 defaultSelectedKeys: [e],
