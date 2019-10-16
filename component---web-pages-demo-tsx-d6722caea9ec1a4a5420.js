@@ -26837,7 +26837,7 @@
                             }
                         }, f.createElement(i.a.Item, {
                             key: "0"
-                        }, f.createElement(c.a, {
+                        }, /*f.createElement(c.a, {
                             to: "/demo"
                         }, f.createElement(o.a, {
                             type: "right-circle-o"
@@ -26849,11 +26849,11 @@
                             type: "right-circle-o"
                         }), "Train assistant")), f.createElement(i.a.Item, {
                             key: "2"
-                        }, f.createElement(c.a, {
+                        },*/ f.createElement(c.a, {
                             to: "/demo"
                         }, f.createElement(o.a, {
                             type: "right-circle-o"
-                        }), "Demo")), f.createElement(i.a.Item, {
+                        }), "Demo")), /*f.createElement(i.a.Item, {
                             key: "3"
                         }, f.createElement(c.a, {
                             to: "/overview"
@@ -26864,7 +26864,7 @@
                                 padding: "24px",
                                 textAlign: "center"
                             }
-                        }, f.createElement("a", {
+                        },*/ f.createElement("a", {
                             href: "",
                             title: "ChatBot Demo",
                             style: {
