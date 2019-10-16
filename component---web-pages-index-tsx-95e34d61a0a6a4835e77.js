@@ -129,7 +129,7 @@
                 }, "Your application can understand natural language in house."), r.createElement("br", null), r.createElement("span", {
                     key: "2"
                 }, "Use open source AI models that can train from the browser using javascript or python and can run everywhere."), r.createElement("br", null), r.createElement(m.a, {
-                    to: "/start",
+                    to: "/demo",
                     key: "3"
                 }, r.createElement(w.a, {
                     type: "primary"
@@ -160,7 +160,7 @@
                     xs: 24
                 }, r.createElement(m.a, {
                     className: "card",
-                    to: "/start"
+                    to: "/demo"
                 }, r.createElement("h3", null, "Dataset generation"), r.createElement(d.a, {
                     type: "database",
                     style: {
@@ -180,7 +180,7 @@
                     xs: 24
                 }, r.createElement(m.a, {
                     className: "card",
-                    to: "/start"
+                    to: "/demo"
                 }, r.createElement("h3", null, "Run everywhere"), r.createElement(d.a, {
                     type: "rocket",
                     style: {
@@ -200,7 +200,7 @@
                     xs: 24
                 }, r.createElement(m.a, {
                     className: "card",
-                    to: "/start"
+                    to: "/demo"
                 }, r.createElement("h3", null, "Easy integration"), r.createElement(d.a, {
                     type: "api",
                     style: {

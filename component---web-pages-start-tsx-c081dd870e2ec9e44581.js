@@ -149,7 +149,7 @@
             }
             var E = l.a.Content,
                 v = l.a.Footer,
-                k = /^\/start(\/.*)?$/i,
+                k = /^\/demo(\/.*)?$/i,
                 w = /^\/overview(\/.*)?$/i,
                 x = /^\/demo(\/.*)?$/i,
                 _ = /^\/train(\/.*)?$/i,
@@ -218,7 +218,7 @@
                             }, u.createElement(i.a.Item, {
                                 key: "0"
                             }, u.createElement(p.a, {
-                                to: "/start"
+                                to: "/demo"
                             }, u.createElement(r.a, {
                                 type: "right-circle-o"
                             }), "Getting started")), u.createElement(i.a.Item, {
