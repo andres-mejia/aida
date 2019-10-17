@@ -434,7 +434,7 @@
                                         };
                                         
                                         //var url ="http://ec2-35-176-159-19.eu-west-2.compute.amazonaws.com:3000/ping?message="+message;
-                                        var url = "https://lz7jz0a9ek.execute-api.eu-west-2.amazonaws.com/default/chatbot-sendmessage?message="+message;
+                                        var url = "https://lz7jz0a9ek.execute-api.eu-west-2.amazonaws.com/default/chatbot-sendmessage?message="+ encodeURIComponent(message);
                                         xhttp.open("GET", url, true);
                                         xhttp.send();
                                         return e.abrupt("return", "Ok. I've added the event '".concat(o, "' at '")
