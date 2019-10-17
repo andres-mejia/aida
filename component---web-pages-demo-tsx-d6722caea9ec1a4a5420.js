@@ -432,7 +432,10 @@
                                                 console.log(xhttp.responseText);
                                             }
                                         };
-                                        xhttp.open("GET", "https://lz7jz0a9ek.execute-api.eu-west-2.amazonaws.com/default/chatbot-sendmessage?message="+message, true);
+                                        
+                                        url ="http://ec2-35-176-159-19.eu-west-2.compute.amazonaws.com:3000/ping?message="+message;
+                                        //url = "https://lz7jz0a9ek.execute-api.eu-west-2.amazonaws.com/default/chatbot-sendmessage?message="+message;
+                                        xhttp.open("GET", url, true);
                                         xhttp.send();
                                         return e.abrupt("return", "Ok. I've added the event '".concat(o, "' at '")
                                     .concat(l, "'... aahh this is just a demo so there is no calendar, remember?"));
