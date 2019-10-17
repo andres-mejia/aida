@@ -433,7 +433,7 @@
                                             }
                                         };
                                         
-                                        url ="http://ec2-35-176-159-19.eu-west-2.compute.amazonaws.com:3000/ping?message="+message;
+                                        var url ="http://ec2-35-176-159-19.eu-west-2.compute.amazonaws.com:3000/ping?message="+message;
                                         //url = "https://lz7jz0a9ek.execute-api.eu-west-2.amazonaws.com/default/chatbot-sendmessage?message="+message;
                                         xhttp.open("GET", url, true);
                                         xhttp.send();
